@@ -35,7 +35,6 @@ def Index(request):
                             if PARSER_DOWNLOAD_STRING in individual_line:
                                 url = 'https://www.elitetorrent.biz' + individual_line.split('"')[1]
                     title = line[len(PARSER_STRING):].split('/')[0]
-                    url = DOWNLOAD_URL + title + '.torrent'
                     f.write('<item>\n')
                     f.write(' <title>' + title + '</title>\n')
                     f.write(' <link>' + url + '</link>\n')
