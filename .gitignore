@@ -1,0 +1,12 @@
+audio/
+logs/
+*~
+*.pyc
+*.mp4
+*.mkv
+*.m3u8
+sftp-config.json
+*.pyc
+.pydevproject
+.project
+.settings/
