@@ -1,4 +1,4 @@
-# Rss Synology torrent parser - Alpha
+# Rss Synology torrent parser - Deprecated
 
 Django app designed to generate a rss torrent list from www.elitetorrent.biz.
 
